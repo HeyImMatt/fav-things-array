@@ -29,5 +29,9 @@ $(document).ready(function() {
     $('#original-answers').append(`<li>${originalArray[2]}</li>`)
     $('#original-answers').append(`<li>${originalArray[3]}</li>`)
     $('#original-answers').append(`<li>${originalArray[4]}</li>`)
+
+    modifiedArray.forEach((answer) => {
+      $('#modified-answers').append(`<li>${answer}</li>`)
+    })
   })
 })
